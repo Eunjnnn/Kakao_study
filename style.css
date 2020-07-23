@@ -1,0 +1,13 @@
+@import "bottom.css";
+@import "top.css";
+@import "header.css";
+@import "main.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color : black;
+}
