@@ -49,12 +49,73 @@
 }
 
 .name{
-    font-size: 20px;
+    font-size: 17px;
     margin-left: 13px;
 }
 
 .add_friend {
-    background-color: whitesmoke;
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
+}
+
+/* more.html */
+.more_main {
+    padding: 15px;
+}
+
+.mail_address {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-left: 13px;
+    padding-top: 5px;
+}
+
+.comment {
+    padding-right: 15px;
+    font-size: 30px;    
+}
+
+.menu {
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid whitesmoke; 
+}
+.menu_icon {
+    padding: 10px;
+}
+.menu_icon__ {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.suggestion_text {
+    font-size: 17px;
+    margin: 13px;
+    opacity: 0.8;
+}
+
+.suggestions {
+    display: flex;
+}
+
+.suggestion_icon {
+    padding: 10px;
+}
+
+.suggest_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.imgg {
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+}
+
+.suggest_text {
+    font-size: 12px;
 }

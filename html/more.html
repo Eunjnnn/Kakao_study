@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kakaotalk</title>
-    <link rel="stylesheet" href="reset.css"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
     <script
       src="https://kit.fontawesome.com/0121e95e8d.js"
       crossorigin="anonymous"
@@ -44,38 +44,61 @@
         </div>
     </header>
     <main class="more_main">
-        <div class="profile_box">
-            <img class="profile" src="image/profile_pic.jpg" width="80" height = "80">
-        <div class="mail_address">
-            kim9912@hanmail.net
-        </div>
-            <i class="far fa-comment-alt"></i>
-        </div>
-        <div class="menu">
-            <div class="menu_icon">
-                <i class="far fa-smile"> Emoticons </i>
+        <div class="friends_info">
+            <div class="friend_set">
+                <img class="profile" src="../image/profile_pic.jpg">
+                <div class="info_box">
+                    <span class="name"> Julie </span>
+                    <div class="mail_address">
+                        kim9912@hanmail.net
+                    </div>
+                </div>
             </div>
-            <div class="menu_icon">
-                <i class="fas fa-brush"> Themes </i>
-            </div>
-            <div class="menu_icon">
-                <i class="fab fa-kickstarter"> Account </i>
+            <div class="comment">
+                <i class="far fa-comment-alt"></i>
             </div>
         </div>
-        <div class="suggestions">
-            <div class="suggestion_icon">
-                <img src="image/kakaostory.png">
-                Kakao Story
-            </div>
-            <div class="suggestion_icon">
-                <img src="image/kakaofriend.png">
-                Kakao Friends
-            </div>
-            <div class="suggestion_icon">
-                <img src="image/friendsgem.png">
-                Friends Gem
-            </div>
-        </div>
+        <ul class="menu">
+            <li class="menu_icon">
+                <span class="menu_icon__">
+                    <i class="far fa-smile"></i>
+                </span>
+                <span class="menu_text">Emoticons</span>
+            </li>
+            <li class="menu_icon">
+                <span class="menu_icon__">
+                    <i class="fas fa-brush"></i>
+                </span>
+                <span class="menu_text">Themes</span>
+            </li>
+            <li class="menu_icon">
+                <span class="menu_icon__">
+                    <i class="fab fa-kickstarter"></i>
+                </span>
+                <span class="menu_text">Account</span>
+            </li>
+        </ul>
+        <div class="suggestion_text">Suggestions</div>
+        <ul class="suggestions">
+            <li class="suggestion_icon">
+                <span class="suggest_img">
+                    <img class="imgg" src="../image/kakaostory.png">
+                </span>
+                <span class="suggest_text">Kakao Story</span>
+            </li>
+            <li class="suggestion_icon">
+                <span class="suggest_img">
+                    <img class="imgg" src="../image/kakaofriend.png">
+                </span>
+                <span class="suggest_text">Kakao Friends</span>
+            </li>
+            <li class="suggestion_icon">
+                <span class="suggest_img">
+                    <img class="imgg" src="../image/friendsgem.png">
+                </span>
+                <span class="suggest_text">Friends Gem</span>
+            </li>
+        </ul>
     </main>
     <nav class="nav">
         <ul class="nav_list">
