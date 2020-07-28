@@ -76,18 +76,18 @@
 }
 
 .menu {
-    padding: 15px;
+    padding: 7px;
     display: flex;
     border-bottom: 1px solid whitesmoke; 
 }
 .menu_icon {
-    padding: 10px;
+    padding: 8px;
 }
 .menu_icon__ {
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .suggestion_text {
@@ -101,21 +101,60 @@
 }
 
 .suggestion_icon {
-    padding: 10px;
+    padding: 8px;
 }
 
 .suggest_img {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .imgg {
     border-radius: 30%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 .suggest_text {
     font-size: 12px;
 }
+
+/* index.html */
+.index_main {
+    padding : 20px 15px 0px 15px;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.friends__{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_content {
+    font-size: 12px;
+    opacity: 0.8;
+    padding-top: 5px;
+}
+
+.dates {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+/* friends.html */
+.friends_main {
+    padding : 20px 15px 0px 15px;
+}
+
+.plusfriends {
+    border-top: 1px solid whitesmoke; 
+    
+}
+
