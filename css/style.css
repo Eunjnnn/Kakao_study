@@ -2,7 +2,7 @@
 @import "top.css";
 @import "header.css";
 @import "main.css";
-
+@import "settings.css";
 
 * {
     box-sizing: border-box;

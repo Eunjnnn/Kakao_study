@@ -7,7 +7,7 @@
 
 /*search.html*/
 .search_main {
-    padding: 15px;
+    padding : 10px 15px 0px 15px;
 }
 
 .function {
@@ -60,7 +60,7 @@
 
 /* more.html */
 .more_main {
-    padding: 15px;
+    padding : 10px 15px 0px 15px;
 }
 
 .mail_address {
@@ -122,7 +122,7 @@
 
 /* index.html */
 .index_main {
-    padding : 20px 15px 0px 15px;
+    padding : 10px 15px 0px 15px;
 }
 
 .friends {
@@ -150,7 +150,7 @@
 
 /* friends.html */
 .friends_main {
-    padding : 20px 15px 0px 15px;
+    padding : 10px 15px 0px 15px;
 }
 
 .plusfriends {
